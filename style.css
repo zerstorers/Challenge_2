@@ -1,11 +1,14 @@
-
-
 .menu_int {
     display: none;
 }
 
+.menu_int > li {
+    display: block;
+}
+
 li:hover > .menu_int {
     display: block;
+    position: absolute;
 }
 
 header {
@@ -13,6 +16,39 @@ header {
     width: 994px;
     height: 170px;
     border: 1px solid black;
+}
+
+nav {
+    border: solid 1px black;
+}
+.list {
+    margin-left: 38px;
+    margin-right: 38px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+li  {
+    display: inline-block;
+    
+}
+
+img:not(#cloud) {
+    float: right;
 }
 
 #cloud {
@@ -24,8 +60,39 @@ header {
     margin-bottom: 38px;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
 main, footer, #titre_footer {
     width: 900px;
     margin: auto;
 }
 
+#border {
+    width: 900px;
+    height: 40px;
+    border: 1px solid lightgrey;
+    background-color:  lightgrey;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#titre_footer {
+    margin-left: 47%;
+    margin-top: 20px;
+}
+
+aside {
+    width: 24.3%;
+    display: inline-block;
+    margin-top: 75px;
+    margin-top: 20px;
+    vertical-align: text-top;  
+    border: solid 1px black;
+}
+
+footer {
+    height: 235px;
+    border: solid 1px black;
+}
