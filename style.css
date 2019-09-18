@@ -1,0 +1,31 @@
+
+
+.menu_int {
+    display: none;
+}
+
+li:hover > .menu_int {
+    display: block;
+}
+
+header {
+    margin: auto;
+    width: 994px;
+    height: 170px;
+    border: 1px solid black;
+}
+
+#cloud {
+    display: block;
+    width: 900px;
+    height: 508px;
+    margin: auto;
+    margin-top: 33px;
+    margin-bottom: 38px;
+}
+
+main, footer, #titre_footer {
+    width: 900px;
+    margin: auto;
+}
+
